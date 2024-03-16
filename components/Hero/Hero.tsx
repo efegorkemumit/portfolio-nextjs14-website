@@ -57,7 +57,7 @@ const Hero = () => {
                 <div>
                     <Link href="/#contact"
                     className='px-6 inline-block py-3 w-full md:w-fit rounded-full bg-gradient-to-br
-                    from-mycolor-200 to-mycolor-100 text-white text-center'
+                    from-mycolor-200 to-mycolor-100 text-white text-center mr-4'
                     >
 
                         Hire
