@@ -27,7 +27,7 @@ const Navbar = () => {
 
     const [navbarOpen, setNavbarOpen]= useState(false);
   return (
-    <nav className='fixed mx-auto border border-mycolor-300 top-0 left-0 right-0
+    <nav className='fixed mx-auto border-b border-mycolor-300 top-0 left-0 right-0
     z-10  bg-opacity-85'>
 
         <div className='flex container lg:py-4  py-2 px-4 flex-wrap items-center 
@@ -35,7 +35,7 @@ const Navbar = () => {
 
         <Link href="/" className='text-2xl md:text-4xl text-mycolor-700 font-semibold
         font-pacifico'>
-            MyPortfolio
+            Luna
         
         </Link>
 
