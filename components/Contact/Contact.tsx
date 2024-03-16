@@ -19,8 +19,9 @@ import { Button } from "../ui/button"
 const Contact = () => {
     const [emailSubmited, setEmailSubmitted] = useState(false);
 
-    const handleSubmit = async(e : React.FormEvent<HTMLFormElement>)=>{
+    const handleSubmit = async(e: any)=>{
         e.preventDefault();
+        
 
         const data = {
             email: e.target.email.value,

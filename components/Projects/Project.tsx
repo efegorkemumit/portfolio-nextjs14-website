@@ -73,7 +73,7 @@ const Project = () => {
 
     const isInview = useInView(ref, {once:true});
 
-    const handleTagChange = (newTag)=>{
+    const handleTagChange = (newTag :string)=>{
         setTag(newTag)
     }
 

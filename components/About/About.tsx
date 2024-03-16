@@ -50,7 +50,7 @@ const About = () => {
 
     const [isPending, startTransition] = useTransition();
 
-    const handleChange = (id)=>{
+    const handleChange = (id:string)=>{
         startTransition(()=>{
             setTab(id)
         });

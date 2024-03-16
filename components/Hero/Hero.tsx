@@ -25,7 +25,7 @@ const Hero = () => {
                     <span className='text-transparent bg-clip-text
                     bg-gradient-to-r from-mycolor-200 to-mycolor-100
                     
-                    '>Hello I'am</span>
+                    '>Hello I &apos; am</span>
                     <div className='h-2'></div>
 
                     <TypeAnimation
